@@ -1,0 +1,349 @@
+CRITICAL - 2023-02-10 00:27:00 --> Undefined variable $curl
+in APPPATH\Controllers\Indicadores.php on line 21.
+ 1 APPPATH\Controllers\Indicadores.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $curl', 'APPPATH\\Controllers\\Indicadores.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:27:30 --> Undefined variable $curl
+in APPPATH\Controllers\Indicadores.php on line 21.
+ 1 APPPATH\Controllers\Indicadores.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $curl', 'APPPATH\\Controllers\\Indicadores.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:27:44 --> Undefined constant "App\Controllers\CURLOPT_SETFIELDS"
+in APPPATH\Controllers\Indicadores.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:28:39 --> Undefined constant "App\Controllers\CURLOPT_SETFIELDS"
+in APPPATH\Controllers\Indicadores.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:29:07 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 27
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(27): view('indicador/uf/insertar_valores_uf', '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiN2I5YzcwZjAtYzI5OS00YWMwLTg2ZGEtMGI5ZDQzYTZiODRjIiwiaWF0IjoiMi85LzIwMjMgODoyODo1NiBQTSIsIlVzZXJJZCI6IklkIiwiRGlzcGxheU5hbWUiOiJQb3N0dWxhbnRlIDIwMjMwMiIsIlVzZXJOYW1lIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsIkVtYWlsIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY3NTk4OTIzNiwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.xabSHy9qi6eW8N2nSJdNCkr8b8-PB2jfPC1mgsvprkg","expiracion":"2023-02-10T00:33:56Z"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:29:42 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 27
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(27): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Cannot deserialize the current JSON array (e.g. [1,2,3]) into type \'Postulaciones.Models.ApiUserReadDto\' because the type requires a JSON object (e.g. {\\"name\\":\\"value\\"}) to deserialize correctly.\\r\\nTo fix this error either change the JSON to a JSON object (e.g. {\\"name\\":\\"value\\"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.\\r\\nPath \'\', line 1, position 1."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-bc933c2ccbadb387b43643664e968bda-37ce35c452ccc5da-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:39:23 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 27
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(27): view('indicador/uf/insertar_valores_uf', '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiMGFhZTNlNDMtMzZjNC00ZWI0LWI3NjEtNzA1OTVmYjdmODA2IiwiaWF0IjoiMi85LzIwMjMgODozOToxMiBQTSIsIlVzZXJJZCI6IklkIiwiRGlzcGxheU5hbWUiOiJQb3N0dWxhbnRlIDIwMjMwMiIsIlVzZXJOYW1lIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsIkVtYWlsIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY3NTk4OTg1MiwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.rxtGTwvuNodL-N0aGJNS6D_iGnLPJxbSn-4nA-Kgfuc","expiracion":"2023-02-10T00:44:12Z"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:41:04 --> Array to string conversion
+in APPPATH\Controllers\Indicadores.php on line 21.
+ 1 APPPATH\Controllers\Indicadores.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Indicadores.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:42:18 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 30
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(30): view('indicador/uf/insertar_valores_uf', '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiNjgxMDBkOTItZTdlMi00YTUzLTlmOGYtYWJkODdhNGFkMDU2IiwiaWF0IjoiMi85LzIwMjMgODo0MjowNiBQTSIsIlVzZXJJZCI6IklkIiwiRGlzcGxheU5hbWUiOiJQb3N0dWxhbnRlIDIwMjMwMiIsIlVzZXJOYW1lIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsIkVtYWlsIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY3NTk5MDAyNiwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.6SROlbUhAG9dfNKujHZJPSHFrEw3TfUYVoFo_eUrLHg","expiracion":"2023-02-10T00:47:06Z"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:44:15 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 30
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(30): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------6c8be5d5626e52f8\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-33e18a976b82e8c13200645e00c6eeed-2fba30957f517371-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:44:17 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 30
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(30): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------cc603526899928fb\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a3f07b50677f21f7826daf7256c125b4-3c6c6d7b9008acc9-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:44:19 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 30
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(30): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------929f98d209bca43b\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-6a1bf92f8fabea4d5c1479fea850d160-0553ed60708180f2-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:44:20 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 30
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(30): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------cebebbadf2642e93\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-0f6b92479bb7d0bc0f9059c698055bd3-abad0582c955b959-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 00:59:08 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 38
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(38): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------a60823eab4e9aa06\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-40dacd8eae913a4a1dc918fef29b11e3-1c5776eabf6d2631-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:01:37 --> strlen(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Indicadores.php on line 27.
+ 1 APPPATH\Controllers\Indicadores.php(27): strlen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:01:41 --> strlen(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Indicadores.php on line 27.
+ 1 APPPATH\Controllers\Indicadores.php(27): strlen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:01:44 --> strlen(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Indicadores.php on line 27.
+ 1 APPPATH\Controllers\Indicadores.php(27): strlen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:01:45 --> strlen(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Indicadores.php on line 27.
+ 1 APPPATH\Controllers\Indicadores.php(27): strlen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:02:58 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 43
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(43): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------9c9752c13812adbc\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-6acc393da7a46a7e69a11d7bd86fef9e-a886597902681322-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:04:01 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 43
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(43): view('indicador/uf/insertar_valores_uf', '{"errors":{"":["Input string \'--------------------------b5b4ccb1a5560f65\' is not a valid number. Path \'\', line 1, position 42."],"userReadDto":["The userReadDto field is required."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-87ae14d5635f02b758f4c877f889969b-952d200316c64a83-00"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:04:26 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 43
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(43): view('indicador/uf/insertar_valores_uf', '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiNzY1MGY1NTItOGQ1OS00NTcxLTg3YTMtNjYxZDZmOTM4MmIxIiwiaWF0IjoiMi85LzIwMjMgOTowNDoxNSBQTSIsIlVzZXJJZCI6IklkIiwiRGlzcGxheU5hbWUiOiJQb3N0dWxhbnRlIDIwMjMwMiIsIlVzZXJOYW1lIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsIkVtYWlsIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY3NTk5MTM1NSwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.sOBp4Or5IjQwhnX183uDGsLOmyBwTsGTF89mV9UpKI4","expiracion":"2023-02-10T01:09:15Z"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:06:00 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 43
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(43): view('indicador/uf/mostrar_valores_uf', '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiZWY1MzU2YTItMjc5Mi00Yzc5LWJjZjktNTVlNWI0ZGEzMjg4IiwiaWF0IjoiMi85LzIwMjMgOTowNTo0OSBQTSIsIlVzZXJJZCI6IklkIiwiRGlzcGxheU5hbWUiOiJQb3N0dWxhbnRlIDIwMjMwMiIsIlVzZXJOYW1lIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsIkVtYWlsIjoicm9kcmlnb2NlYmFsbG9zMDlfOHFwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY3NTk5MTQ0OSwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.VXj3nnMbK1rdv-mAsvIbfXDAJ0dUAr-oPFgkMmQUQYk","expiracion":"2023-02-10T01:10:49Z"}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:07:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:08:25 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:08:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:09:03 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:09:47 --> Undefined variable $result
+in APPPATH\Views\indicador\uf\insertar_valores_uf.php on line 9.
+ 1 APPPATH\Views\indicador\uf\insertar_valores_uf.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\indicador\\uf\\insertar_valores_uf.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indicador\\uf\\insertar_valores_uf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('indicador/uf/insertar_valores_uf', [], true)
+ 5 APPPATH\Controllers\Indicadores.php(45): view('indicador/uf/insertar_valores_uf')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:10:29 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xamp\htdocs\indicador\app\Controllers\Indicadores.php on line 45
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Indicadores.php(45): view('indicador/uf/insertar_valores_uf', '{')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 01:11:56 --> Undefined variable $token
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 APPPATH\Controllers\Indicadores.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'APPPATH\\Controllers\\Indicadores.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:30:37 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:32:17 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:32:18 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:33:25 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:34:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:34:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Indicadores.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:35:50 --> Uninitialized string offset 1
+in APPPATH\Controllers\Indicadores.php on line 56.
+ 1 APPPATH\Controllers\Indicadores.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'APPPATH\\Controllers\\Indicadores.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:38:46 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Indicadores.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:39:09 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Indicadores.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:39:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:42:41 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:51:34 --> syntax error, unexpected token "function", expecting variable
+in APPPATH\Controllers\Indicadores.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:52:10 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:52:11 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:56:03 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:56:03 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 17:56:04 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:00:58 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:57 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:57 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:57 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:58 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:58 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 18:01:58 --> Call to undefined function App\Controllers\obtenerToken()
+in APPPATH\Controllers\Indicadores.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

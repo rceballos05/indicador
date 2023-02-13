@@ -1,0 +1,120 @@
+CRITICAL - 2023-02-13 01:19:27 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:20:48 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:23:25 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:24:58 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:24:59 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:26:10 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:26:11 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:32:37 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:33:36 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:39:52 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:42:09 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(224): YaLinqo\Utils::createLambda('fecha', 'v,k', Object(Closure))
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(243): YaLinqo\Enumerable->orderByDir(4, 'fecha', 'asc')
+ 3 APPPATH\Controllers\Indicadores.php(89): YaLinqo\Enumerable->orderBy('fecha', 'asc')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->grafico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:09:20 --> Cannot traverse an already closed generator
+in VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php on line 832.
+ 1 APPPATH\Controllers\Indicadores.php(93): YaLinqo\Enumerable->toArray()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->filtrarDatosGrafico('2020-01-01', '2021-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:09:24 --> Cannot traverse an already closed generator
+in VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php on line 832.
+ 1 APPPATH\Controllers\Indicadores.php(93): YaLinqo\Enumerable->toArray()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->filtrarDatosGrafico('2021-01-01', '2022-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:10:50 --> Cannot traverse an already closed generator
+in VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php on line 832.
+ 1 APPPATH\Controllers\Indicadores.php(93): YaLinqo\Enumerable->toArray()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->filtrarDatosGrafico('2021-01-01', '2022-01-01')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

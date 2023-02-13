@@ -1,0 +1,3 @@
+CREATE DATABASE indicador;
+USE indicador;
+CREATE TABLE `indicador` (`id` INT AUTO_INCREMENT PRIMARY KEY, `nombre` varchar(150),`codigo` varchar(100), `unidad` varchar(150), `valor` double, `fecha` date);

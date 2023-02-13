@@ -1,0 +1,874 @@
+CRITICAL - 2023-02-11 02:48:27 --> Array to string conversion
+in APPPATH\Controllers\Indicadores.php on line 49.
+ 1 APPPATH\Controllers\Indicadores.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Indicadores.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:05:29 --> Class "YaLinqo\Enumerable" not found
+in APPPATH\Controllers\Indicadores.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:07:11 --> Class "YaLinqo\Enumerable" not found
+in APPPATH\Controllers\Indicadores.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:07:29 --> Class "YaLinqo\Enumerable" not found
+in APPPATH\Controllers\Indicadores.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:08:37 --> require_once(D:\xamp\htdocs\indicador\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 3.
+ 1 APPPATH\Controllers\Indicadores.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xamp\\htdocs\\indicador\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 3)
+ 2 APPPATH\Controllers\Indicadores.php(3): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:08:39 --> require_once(D:\xamp\htdocs\indicador\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 3.
+ 1 APPPATH\Controllers\Indicadores.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xamp\\htdocs\\indicador\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 3)
+ 2 APPPATH\Controllers\Indicadores.php(3): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:09:33 --> Call to undefined function App\Controllers\from()
+in APPPATH\Controllers\Indicadores.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:17 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:21 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:21 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:22 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:22 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:13:22 --> require_once(vendor/autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Indicadores.php on line 4.
+ 1 APPPATH\Controllers\Indicadores.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoloader.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Indicadores.php', 4)
+ 2 APPPATH\Controllers\Indicadores.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Indicadores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Indicadores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Indicadores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Indicadores')
+ 7 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Indicadores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:23:53 --> Class "Phinq\Phinq" not found
+in APPPATH\Controllers\Indicadores.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:29:16 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$data ==> $data -> codigoIndicador == "UF"', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$data ==> $data -> codigoIndicador == "UF"', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(52): YaLinqo\Enumerable->where('$data ==> $data -> codigoIndicador == "UF"')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:33:50 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$data ==> $data["codigoIndicador"] == "UF"', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$data ==> $data["codigoIndicador"] == "UF"', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(52): YaLinqo\Enumerable->where('$data ==> $data["codigoIndicador"] == "UF"')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:39:18 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:39:35 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:39:56 --> Class "App\Controllers\YaLinqo\Enumerable" not found
+in APPPATH\Controllers\Indicadores.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:40:37 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 03:42:28 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Indicadores.php on line 53.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}(Object(stdClass), 0)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(860): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(848): YaLinqo\Enumerable->toArrayDeepProc(Object(YaLinqo\Enumerable))
+ 4 APPPATH\Controllers\Indicadores.php(54): YaLinqo\Enumerable->toArrayDeep()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicador()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:07:33 --> Call to undefined method App\Models\Indicador::count
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Indicadores.php(10): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:10:42 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(10): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:11:37 --> Call to undefined function App\Controllers\print_t()
+in APPPATH\Controllers\Indicadores.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:11:50 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(11): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:14:00 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:14:36 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:14:38 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:15:58 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:16:00 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:16:00 --> Invalid file: "mostrar_valores_uf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrar_valores_uf.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('mostrar_valores_uf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:33:43 --> Undefined variable $dato
+in APPPATH\Controllers\Indicadores.php on line 58.
+ 1 APPPATH\Controllers\Indicadores.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Controllers\\Indicadores.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicadorFromApi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 04:35:42 --> Array to string conversion
+in APPPATH\Controllers\Indicadores.php on line 67.
+ 1 APPPATH\Controllers\Indicadores.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Indicadores.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->guardarIndicadorFromApi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 05:19:37 --> syntax error, unexpected end of file
+in APPPATH\Views\indicador\uf\mostrar_valores_uf.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('indicador/uf/mostrar_valores_uf', [], true)
+ 3 APPPATH\Controllers\Indicadores.php(17): view('indicador/uf/mostrar_valores_uf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:37:44 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:38:44 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:39:42 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:39:43 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:53 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:54 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:55 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:55 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:55 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:43:53 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:43:54 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(78): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:44:42 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(79): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:56:45 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:57:31 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 79.
+ 1 APPPATH\Controllers\Indicadores.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:58:01 --> Undefined array key "id"
+in APPPATH\Controllers\Indicadores.php on line 79.
+ 1 APPPATH\Controllers\Indicadores.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Indicadores.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:59:54 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 79.
+ 1 APPPATH\Controllers\Indicadores.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 79)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(79): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:02:38 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 79.
+ 1 APPPATH\Controllers\Indicadores.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 79)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(79): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:05:32 --> Call to undefined function App\Controllers\printr()
+in APPPATH\Controllers\Indicadores.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:05:45 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:06:49 --> Undefined array key 0
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:07:40 --> Call to a member function toList() on array
+in APPPATH\Controllers\Indicadores.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:08:15 --> Attempt to read property "id" on string
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}('1098', 'id')
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:08:49 --> Attempt to read property "id" on string
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}('1098', 'id')
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:09:06 --> Attempt to read property "id" on string
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}('1098', 'id')
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:09:56 --> Attempt to read property "id" on string
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}('1098', 'id')
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:10:03 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:16:13 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(80): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:23:39 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:24:22 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(860): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(848): YaLinqo\Enumerable->toArrayDeepProc(Object(YaLinqo\Enumerable))
+ 5 APPPATH\Controllers\Indicadores.php(81): YaLinqo\Enumerable->toArrayDeep()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:25:50 --> Attempt to read property "fecha" on array
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fecha" on array', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(860): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(848): YaLinqo\Enumerable->toArrayDeepProc(Object(YaLinqo\Enumerable))
+ 5 APPPATH\Controllers\Indicadores.php(81): YaLinqo\Enumerable->toArrayDeep()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:30:46 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador => $indicador -> id == $id', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador => $indicador -> id == $id', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(81): YaLinqo\Enumerable->where('$indicador => $indicador -> id == $id')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:31:57 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 84.
+ 1 APPPATH\Controllers\Indicadores.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:38:44 --> Undefined property: YaLinqo\Enumerable::$id
+in APPPATH\Controllers\Indicadores.php on line 84.
+ 1 APPPATH\Controllers\Indicadores.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: YaLinqo\\Enumerable::$id', 'APPPATH\\Controllers\\Indicadores.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:39:00 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:42:33 --> Call to undefined method App\Models\Indicador::toList
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Indicadores.php(78): CodeIgniter\Model->__call('toList', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:42:39 --> Call to undefined method App\Models\Indicador::toList
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Indicadores.php(78): CodeIgniter\Model->__call('toList', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:43:12 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(80): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:44:06 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(80): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:44:07 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(80): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:44:07 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(80): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:44:07 --> source must be array or Traversable.
+in VENDORPATH\athari\yalinqo\YaLinqo\EnumerableGeneration.php on line 79.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Linq.php(23): YaLinqo\Enumerable::from(Object(App\Models\Indicador))
+ 2 APPPATH\Controllers\Indicadores.php(80): from(Object(App\Models\Indicador))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:44:47 --> Call to a member function toArrayDeep() on array
+in APPPATH\Controllers\Indicadores.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:45:05 --> Call to a member function toArray() on array
+in APPPATH\Controllers\Indicadores.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:45:26 --> Call to a member function toList() on array
+in APPPATH\Controllers\Indicadores.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:45:27 --> Call to a member function toList() on array
+in APPPATH\Controllers\Indicadores.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:46:37 --> Object of class YaLinqo\Enumerable could not be converted to string
+in APPPATH\Controllers\Indicadores.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:47:06 --> Array to string conversion
+in APPPATH\Controllers\Indicadores.php on line 84.
+ 1 APPPATH\Controllers\Indicadores.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Indicadores.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:48:00 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 80.
+ 1 APPPATH\Controllers\Indicadores.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 80)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(84): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:48:32 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 APPPATH\Controllers\Indicadores.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 81)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(85): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar(1098)
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:49:10 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 APPPATH\Controllers\Indicadores.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 81)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(85): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:50:23 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 APPPATH\Controllers\Indicadores.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 81)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(85): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:50:25 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 APPPATH\Controllers\Indicadores.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 81)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(85): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:50:26 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 81.
+ 1 APPPATH\Controllers\Indicadores.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 81)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(85): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:51:12 --> Undefined variable $n
+in APPPATH\Controllers\Indicadores.php on line 82.
+ 1 APPPATH\Controllers\Indicadores.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $n', 'APPPATH\\Controllers\\Indicadores.php', 82)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(86): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:55:03 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda([...], 'v,k')
+ 2 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:55:48 --> Undefined array key "id"
+in APPPATH\Controllers\Indicadores.php on line 83.
+ 1 APPPATH\Controllers\Indicadores.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Indicadores.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 18:58:16 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador ==> $indicador["id"] ==$id', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador ==> $indicador["id"] ==$id', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador ==> $indicador["id"] ==$id')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:01 --> closure must be callable
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 68.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('v["id"] == 1099', 'v,k')
+ 2 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('v["id"] == 1099')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:17 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$v["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$v["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$v["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:50 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador==>$indicador["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:51 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador==>$indicador["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:51 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador==>$indicador["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:51 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador==>$indicador["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:00:51 --> Call to undefined function YaLinqo\create_function()
+in VENDORPATH\athari\yalinqo\YaLinqo\Utils.php on line 153.
+ 1 VENDORPATH\athari\yalinqo\YaLinqo\Utils.php(64): YaLinqo\Utils::createLambdaFromString('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(196): YaLinqo\Utils::createLambda('$indicador==>$indicador["id"] == 1099', 'v,k')
+ 3 APPPATH\Controllers\Indicadores.php(83): YaLinqo\Enumerable->where('$indicador==>$indicador["id"] == 1099')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:01:18 --> Undefined array key "id"
+in APPPATH\Controllers\Indicadores.php on line 83.
+ 1 APPPATH\Controllers\Indicadores.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Indicadores.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:02:00 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Indicadores.php on line 83.
+ 1 APPPATH\Controllers\Indicadores.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Indicadores.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:07:23 --> Undefined variable $id
+in APPPATH\Controllers\Indicadores.php on line 82.
+ 1 APPPATH\Controllers\Indicadores.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Indicadores.php', 82)
+ 2 VENDORPATH\athari\yalinqo\YaLinqo\Enumerable.php(200): App\Controllers\Indicadores->App\Controllers\{closure}([...], 0)
+ 3 VENDORPATH\athari\yalinqo\YaLinqo\EnumerablePagination.php(102): YaLinqo\Enumerable->YaLinqo\{closure}()
+ 4 APPPATH\Controllers\Indicadores.php(82): YaLinqo\Enumerable->firstOrDefault()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 19:35:02 --> Invalid file: "estructura/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estructura/footer.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('estructura/footer', [], true)
+ 3 APPPATH\Controllers\Indicadores.php(82): view('estructura/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->editar('1098')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 20:04:39 --> Call to a member function delete() on array
+in APPPATH\Controllers\Indicadores.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->eliminar('1098')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 20:24:22 --> Undefined variable $indicador
+in APPPATH\Views\indicador\uf\insertar_valores_uf.php on line 10.
+ 1 APPPATH\Views\indicador\uf\insertar_valores_uf.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $indicador', 'APPPATH\\Views\\indicador\\uf\\insertar_valores_uf.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indicador\\uf\\insertar_valores_uf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('indicador/uf/insertar_valores_uf', [], true)
+ 5 APPPATH\Controllers\Indicadores.php(77): view('indicador/uf/insertar_valores_uf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Indicadores->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicadores))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
